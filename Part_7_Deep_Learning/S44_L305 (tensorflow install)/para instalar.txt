@@ -1,0 +1,29 @@
+Abrir o anaconda prompt como administrador
+
+- Ver o envs instalados 
+$ conda info --envs
+
+- Criar o enviroment
+$ conda create --name py3-TF2.0 python=3
+
+- Ativar o env
+$ conda activate py3-TF2.0
+
+- Instalar tensoflow
+$ conda install tensorflow
+
+- Atualizar tensorflow
+$ pip install --upgrade tensorflow
+
+- Instalar o adm de kernels do conda
+$ conda install nb_conda
+
+- Instalar o matplotlib
+$ conda install matplotlib
+
+- Reiniciar o anaconda
+Fechar e abrir novamente o prompt
+
+- Abrir o jupyter no env novo
+$ conda activate py3-TF2.0
+$ jupyter-notebook
